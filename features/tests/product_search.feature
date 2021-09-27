@@ -3,6 +3,6 @@ Feature: Test Scenarios for Search functionality
 
   Scenario: User can search for a product
     Given Open Google page
-    When Input Dumbbells into search field
+    When Input Starbucks into search field
     And Click on search icon
-    Then Product results for Dumbbells are shown
+    Then Product results for Starbucks are shown
