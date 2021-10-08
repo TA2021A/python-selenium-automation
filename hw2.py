@@ -44,9 +44,11 @@ driver = webdriver.Chrome(executable_path='/Users/Sanches/Documents/GitHub/Autom
 
 driver.get('https://www.amazon.com/gp/help/customer/display.html')
 
+
 element = driver.find_element_by_id("helpsearch")
 element.send_keys("Cancel order")
 element.submit()
+
 
 actual_result = driver.find_element(By.XPATH, "//a[@class='a-link-normal']").text
 expected_result = 'Cancel Items or Orders'

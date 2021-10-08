@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 # init driver
-driver = webdriver.Chrome(executable_path='/Users/Sanches/Documents/GitHub/Automation/python-selenium-automation/chromedriver')
+driver = webdriver.Chrome(executable_path='/chromedriver')
 
 driver.get('https://www.amazon.com/gp/help/customer/display.html')
 
