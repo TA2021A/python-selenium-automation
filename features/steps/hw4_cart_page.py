@@ -26,3 +26,4 @@ def verify_product_name(context):
     cart_product_name = context.driver.find_element(By.XPATH, "//span[@class='a-truncate-cut']").text
     print(f'Product name in cart: {cart_product_name}')
     assert cart_product_name == context.current_product_name
+

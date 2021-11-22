@@ -1,8 +1,8 @@
 # ID
-driver.find_element(By.CSS_SELECTOR, 'input#twotabsearchtextbox')
+driver.find_element(By.CSS_SELECTOR, "input#twotabsearchtextbox")
 
 # Class
-driver.find_element(By.CSS_SELECTOR, 'span.a-color-state.a-text-bold')
+driver.find_element(By.CSS_SELECTOR, "span.a-color-state.a-text-bold")
 
 # Full  attribute
 driver.find_element(By.CSS_SELECTOR, "a[href='/gp/bestsellers/?ref_=nav_cs_bestsellers_8a080d3d7b55497ea1bdd97b7cff8b7b']")
